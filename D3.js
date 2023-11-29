@@ -216,12 +216,21 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
     starWarsCharacters[i].gender = "robot";
   }
 }
-console.log(starWarsCharacters);
+// console.log(starWarsCharacters);
 
 /* --EXTRA-- ESERCIZIO 9
   Utilizzando gli elementi presenti nell'array "femaleCharacters" rimuovi dall'array "charactersNames" le stringhe corrispondenti a personaggi con lo stesso nome.
   Una volta fatto crea un console.log per controllare la proprietà length di "charactersNames" prima e dopo l'operazione.
+
 */
+// const filteredCharacters = starWarsCharacters.filter(
+//   (character) => !femaleCharacters.includes(character.name)
+// );
+// starWarsCharacters.length = 0;
+// Array.prototype.push.apply(starWarsCharacters, filteredCharacters);
+// console.log(starWarsCharacters);
+//non so perchè ma non mi esce nessun errore eppure non riesco ad escludere il gender female
+
 
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
